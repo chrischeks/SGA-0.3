@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url("https://i.imgur.com/AwMvWr6.jpg");
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+	  color: black;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article{
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media(max-width: 500px){
+      h1 {
+        font-size: 30px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+.blue{
+color: blue;
+}
+#button{
+	background: black;
+	color: white;
+}
+img{
+	border: 7px solid white;N
+	border-radius: 50%;
+	margin-top: 40px;
+	}
+p{
+  font-family: 'Rokkitt', serif;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/JSQZdTl.jpg?2" height= "200" width="200" />
+    <h1>Chekwube's News Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Latest Newest</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>How Young Nigerians, Professionals Can Get Jobs – Fashola</h2>
+    <p>Minister of Power, Works and Housing, Mr Babatunde Fashola, on Tuesday, said more youths and professionals will get jobs when Nigerians embrace maintenance economy.
+NAN reports that Fashola said this during a panel discussion at the Facility Management (FM) Day with the theme “Tackling the Poor Maintenance Culture in Nigeria,” organised by Klinserv Solutions Ltd., in Lagos. Click <a href="#" class= "blue">here</a> to read the full story
+<a href="http://kikiotolu.com/how-young-nigerians-professionals-can-get-jobs-fashola" class="blue">Kiketolu.com</a>
+</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Woman Brutalizes 8-Year-Old Boy In Badagry Over Witchcraft Accusation</h2>
+    <p>A 45yr old woman, Charity Iyonetu, has been arrested for allegedly torturing an eight-year-old boy and accusing him of being a wizard. The police said that the suspect was arrested at the Seme border area of Badagry after she allegedly tied the victim’s hands with a rope and locked him up in a one-room apartment.
+The Lagos State Commissioner of Police, Imohimi Edgal, who confirmed the arrest at a press conference held yesterday at the Command Headquarters, Ikeja, said that the woman had been brutalising the boy until May 9, 2018 when she was arrested. Click <a href="#" class= "blue">here</a> to read the full story
+News From Ebiwali-
+<a href="http://www.ebiwalisgossip.com/2018/05/wickedness-woman-brutalized-8yr-old.html" class="blue"> Ebiwalisgossiip.com</a>
+</p>
+<button>Like</button>
+  </article>
+  <p style="text-align: center">Click <button id= "button">Here</button> for more news</p>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
