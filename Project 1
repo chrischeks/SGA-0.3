@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <title>Chekwube Udeogu</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("http://dash.ga.co/assets/anna-bg.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 18px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+	img{
+	border-radius: 50%;
+	}
+  </style>
+</head>
+<body>
+  <img src="https://i.imgur.com/JSQZdTl.jpg?2" height= "200" width="200" />
+  <p>Hello! My name is Chekwube. I am an aspiring UI/UX and Front End Developer</p>
+  <p>Please enter your email address below so that I can send you some feedback.</p>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+</body>
